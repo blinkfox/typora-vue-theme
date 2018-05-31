@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600");
 :root {
-    --side-bar-bg-color: #fafafa;
+    --side-bar-bg-color: #fff;
     --control-text-color: #777;
 }
 
@@ -35,13 +35,6 @@ body {
 #write ol li {
     padding-left: 0.5rem;
 }
-
-/* #write li p {
-    text-indent: 0px;
-}
-#write ul, ol {
-    padding-left: 3.2rem;
-} */
 
 #write>ul:first-child,
 #write>ol:first-child {
@@ -313,8 +306,27 @@ tt {
     border-radius: 2px;
     margin: 0 2px;
     font-family: Roboto Mono, Monaco, courier, monospace;
-    padding: 0px 3px;
-    font-size: 0.85rem;
+    padding: 2px 4px;
+    font-size: 0.9rem;
+}
+
+#write .md-footnote {
+    background-color: #f8f8f8;
+    color: #e96900;
+}
+
+#write mark {
+    background-color: rgba(66, 185, 131, .1);
+    border-radius: 2px;
+    padding: 2px 4px;
+    margin: 0 2px;
+    color: #000;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+#write del {
+    padding: 1px 2px;
 }
 
 .cm-s-inner .cm-link,
