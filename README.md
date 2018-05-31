@@ -2,7 +2,7 @@
 
 [![HitCount](http://hits.dwyl.io/blinkfox/typora-vue-theme.svg)](http://hits.dwyl.io/blinkfox/typora-vue-theme) [![GitHub issues](https://img.shields.io/github/issues/blinkfox/typora-vue-theme.svg)](https://github.com/blinkfox/typora-vue-theme/issues) [![GitHub license](https://img.shields.io/github/license/blinkfox/typora-vue-theme.svg)](https://github.com/blinkfox/typora-vue-theme/blob/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/blinkfox/typora-vue-theme.svg)](https://github.com/blinkfox/typora-vue-theme/network) [![GitHub stars](https://img.shields.io/github/stars/blinkfox/typora-vue-theme.svg)](https://github.com/blinkfox/typora-vue-theme/stargazers)
 
-> 这是 Typora Markdown 编辑器的类似 Vue 文档风格的主题。
+> 这是 Typora Markdown 编辑器的类似 Vue 文档风格的自定义主题。
 
 ## 简介
 
@@ -10,10 +10,10 @@
 
 ## 安装主题
 
-1. 下载本主题中的`vue.css`文件；
+1. 下载本主题中的`vue.css`文件和包含字体的`vue`文件夹；
 2. 打开 Typora，点击“偏好设置” => “打开主题文件夹”按钮，将弹出 Typora 的主题文件夹；
-3. 将下载好的`vue.css`文件放到 Typora 的主题文件夹中，并确保你的`css`文件直接位于该目录下；
-4. 关闭重新打开 Typora，从菜单栏中选择 “主题” => “Vue” 即可。
+3. 将下载好的`vue.css`文件和包含字体的`vue`文件夹放到 Typora 的主题文件夹中；
+4. 关闭并重新打开 Typora，从菜单栏中选择 “主题” => “Vue” 即可。
 
 ## 效果图
 
