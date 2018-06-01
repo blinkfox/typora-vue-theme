@@ -309,13 +309,13 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.43;
     margin: 20px 0px 7px 0px;
 }
 
 h4 {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
 }
 
 h5 {
@@ -459,6 +459,16 @@ table tr td:first-child {
 table tr th:last-child,
 table tr td:last-child {
     margin-bottom: 0;
+}
+
+#write strong {
+    padding: 0px 1px 0 1px;
+    font-size: 1.01rem;
+}
+
+#write em {
+    padding: 0px 5px 0 2px;
+    font-size: 1.01rem;
 }
 
 #write table thead th {
