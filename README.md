@@ -11,10 +11,14 @@
 ## 安装主题
 
 1. 下载本主题中的`vue.css`文件和包含字体的`vue`文件夹；
-2. 打开 Typora，点击“偏好设置” => “打开主题文件夹”按钮，将弹出 Typora 的主题文件夹；
+2. 打开 Typora，点击“**偏好设置**” => “**打开主题文件夹**”按钮，将弹出 Typora 的主题文件夹；
 3. 将下载好的`vue.css`文件和包含字体的`vue`文件夹放到 Typora 的主题文件夹中；
-4. 关闭并重新打开 Typora，从菜单栏中选择 “主题” => “Vue” 即可。
+4. 关闭并重新打开 Typora，从菜单栏中选择 “**主题**” => “**Vue**” 即可。
 
 ## 效果图
 
-![vue主题效果图](http://static.blinkfox.com/typora_vue_theme_01.png)
+![vue主题效果图1](http://static.blinkfox.com/typora_vue_theme_screen_01.png)
+
+![vue主题效果图2](http://static.blinkfox.com/typora_vue_theme_screen_02.png)
+
+![vue主题效果图3](http://static.blinkfox.com/typora_vue_theme_screen_03.png)
