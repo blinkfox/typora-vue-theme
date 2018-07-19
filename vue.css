@@ -369,16 +369,21 @@ h2 {
     font-size: 1.75rem;
     line-height: 1.225;
     margin: 35px 0px 15px 0px;
+    counter-increment: h1-counter;
+    counter-reset: h2-counter;
 }
 
 h3 {
     font-size: 1.4rem;
     line-height: 1.43;
     margin: 20px 0px 7px 0px;
+    counter-increment: h2-counter;
+    counter-reset: h3-counter;
 }
 
 h4 {
     font-size: 1.2rem;
+    counter-increment: h3-counter;
 }
 
 h5 {
@@ -388,6 +393,33 @@ h5 {
 h6 {
     font-size: 1rem;
     color: #777;
+}
+
+h2::before {
+    content: counter(h1-counter);
+    left: -2rem;
+    font-size: 1.75rem;
+}
+
+h3::before {
+    content: counter(h1-counter)"."counter(h2-counter);
+    left: -2.4rem;
+    font-size: 1.4rem;
+}
+
+h4::before {
+    content: counter(h1-counter)"."counter(h2-counter)"."counter(h3-counter);
+    left: -2.8rem;
+    font-size: 1.2rem;
+}
+
+h1::before,
+h2::before,
+h3::before,
+h4::before {
+    color: #42B983;
+    position: absolute;
+    font-weight: 400;
 }
 
 p,
