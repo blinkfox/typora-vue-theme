@@ -369,6 +369,8 @@ h2 {
     font-size: 1.75rem;
     line-height: 1.225;
     margin: 35px 0px 15px 0px;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ddd;
 }
 
 h3 {
