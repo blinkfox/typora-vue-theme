@@ -287,16 +287,16 @@ body {
     padding-left: 0.5rem;
 }
 
-#write>ul:first-child,
-#write>ol:first-child {
+#write > ul:first-child,
+#write > ol:first-child {
     margin-top: 30px;
 }
 
-body>*:first-child {
+body > *:first-child {
     margin-top: 0 !important;
 }
 
-body>*:last-child {
+body > *:last-child {
     margin-bottom: 0 !important;
 }
 
@@ -304,6 +304,7 @@ a {
     color: #42b983;
     font-weight: 600;
     padding: 0px 2px;
+    text-decoration: none;
 }
 
 h1,
@@ -359,6 +360,23 @@ h6 code {
     font-size: inherit;
 }
 
+h2 a,
+h3 a {
+    color: #34495e;
+}
+
+h3 a:before {
+    content: '#';
+    color: #42b983;
+    position: absolute;;
+    left: -0.7em;
+    margin-top: -0.05em;
+    padding-right: 0.5em;
+    font-size: 1.2em;
+    line-height: 1;
+    font-weight: bold;
+}
+
 h1 {
     padding-bottom: .4rem;
     font-size: 2.2rem;
@@ -369,6 +387,8 @@ h2 {
     font-size: 1.75rem;
     line-height: 1.225;
     margin: 35px 0px 15px 0px;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ddd;
 }
 
 h3 {
@@ -399,8 +419,8 @@ table {
     margin: 0.8em 0;
 }
 
-li>ol,
-li>ul {
+li > ol,
+li > ul {
     margin: 0 0;
 }
 
@@ -414,25 +434,25 @@ hr {
     box-sizing: content-box;
 }
 
-body>h2:first-child {
+body > h2:first-child {
     margin-top: 0;
     padding-top: 0;
 }
 
-body>h1:first-child {
+body > h1:first-child {
     margin-top: 0;
     padding-top: 0;
 }
 
-body>h1:first-child+h2 {
+body > h1:first-child + h2 {
     margin-top: 0;
     padding-top: 0;
 }
 
-body>h3:first-child,
-body>h4:first-child,
-body>h5:first-child,
-body>h6:first-child {
+body > h3:first-child,
+body > h4:first-child,
+body > h5:first-child,
+body > h6:first-child {
     margin-top: 0;
     padding-top: 0;
 }
@@ -574,7 +594,7 @@ table tr td:last-child {
 
 /* heighlight. */
 #write mark {
-    background-color:#EBFFEB;
+    background-color: #EBFFEB;
     border-radius: 2px;
     padding: 2px 4px;
     margin: 0 2px;
@@ -595,7 +615,7 @@ table tr td:last-child {
     color: #22a2c9;
 }
 
-.md-task-list-item>input {
+.md-task-list-item > input {
     margin-left: -1.3em;
 }
 
@@ -610,10 +630,12 @@ table tr td:last-child {
     html {
         font-size: 13px;
     }
+
     table,
     pre {
         page-break-inside: avoid;
     }
+
     pre {
         word-wrap: break-word;
     }
@@ -634,31 +656,31 @@ table tr td:last-child {
     margin-top: 0 !important;
 }
 
-.mathjax-block>.code-tooltip {
+.mathjax-block > .code-tooltip {
     bottom: .375rem;
 }
 
-#write>h3.md-focus:before {
+#write > h3.md-focus:before {
     left: -1.5625rem;
     top: .375rem;
 }
 
-#write>h4.md-focus:before {
+#write > h4.md-focus:before {
     left: -1.5625rem;
     top: .285714286rem;
 }
 
-#write>h5.md-focus:before {
+#write > h5.md-focus:before {
     left: -1.5625rem;
     top: .285714286rem;
 }
 
-#write>h6.md-focus:before {
+#write > h6.md-focus:before {
     left: -1.5625rem;
     top: .285714286rem;
 }
 
-.md-image>.md-meta {
+.md-image > .md-meta {
     /*border: 1px solid #ddd;*/
     border-radius: 3px;
     font-family: Consolas, "Liberation Mono", Courier, monospace;
