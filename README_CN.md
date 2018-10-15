@@ -1,10 +1,7 @@
 # typora-vue-theme
-
-[![HitCount](http://hits.dwyl.io/blinkfox/typora-vue-theme.svg)](http://hits.dwyl.io/blinkfox/typora-vue-theme) [![GitHub issues](https://img.shields.io/github/issues/blinkfox/typora-vue-theme.svg)](https://github.com/blinkfox/typora-vue-theme/issues) [![GitHub license](https://img.shields.io/github/license/blinkfox/typora-vue-theme.svg)](https://github.com/blinkfox/typora-vue-theme/blob/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/blinkfox/typora-vue-theme.svg)](https://github.com/blinkfox/typora-vue-theme/network) [![GitHub stars](https://img.shields.io/github/stars/blinkfox/typora-vue-theme.svg)](https://github.com/blinkfox/typora-vue-theme/stargazers)
-
 [English](README.md)
 
-> 这是 Typora Markdown 编辑器的类似 Vue 文档风格的自定义主题。
+> 这是一个fork自 [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) Vue文档风格的深色改版主题。  
 
 ## 简介
 
@@ -12,15 +9,15 @@
 
 ## 安装主题
 
-1. 下载本主题中的`vue.css`文件和包含字体的`vue`文件夹；
+1. 从 [release page](https://github.com/MamoruDS/typora-vue-theme/releases/) 下载主题包，其中包含主题文件`vue-dark.css`、`vue-dark-snappy.css`和以及包含字体的`vue`文件夹。
 2. 打开 Typora，点击“**偏好设置**” => “**打开主题文件夹**”按钮，将弹出 Typora 的主题文件夹；
-3. 将下载好的`vue.css`文件和包含字体的`vue`文件夹放到 Typora 的主题文件夹中；
-4. 关闭并重新打开 Typora，从菜单栏中选择 “**主题**” => “**Vue**” 即可。
+3. 将下载好的`vue-dark.css`及`vue-dark-snappy.css`文件和包含字体的`vue`文件夹放到 Typora 的主题文件夹中；
+4. 关闭并重新打开 Typora，从菜单栏中选择 “**主题**” => “**Vue Dark**”或“**Vue Dark Snappy**”即可。
 
 ## 效果图
 
-![vue主题效果图1](http://static.blinkfox.com/typora_vue_theme_screen_01.png)
-
-![vue主题效果图2](http://static.blinkfox.com/typora_vue_theme_screen_02.png)
-
-![vue主题效果图3](http://static.blinkfox.com/typora_vue_theme_screen_03.png)
+![vue主题效果图1](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png)
+默认深色主题
+![vue主题效果图2](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
+Snappy深色主题
+![vue主题效果图3](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_03.png)

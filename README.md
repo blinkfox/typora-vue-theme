@@ -9,7 +9,7 @@
 
 ## Install
 
-1. [Download](https://codeload.github.com/blinkfox/typora-vue-theme/zip/master) this theme from Github, then you can get the `vue-dark.css` file, `vue-dark-snappy.css` and the `vue` folder.
+1. Download theme archive from [release page](https://github.com/MamoruDS/typora-vue-theme/releases/), then you can get the `vue-dark.css` file, `vue-dark-snappy.css` and the `vue` folder.
 2. Open typora. Click "**Open Theme Folder**" button from `Preference Panel` → `Apperance` section.
 3. Put `vue-dark.css`, `vue-dark-snappy.css` and `vue` folder into the opened folder, make sure your css files are directly under that directory.
 4. Close and reopen Typora and select `Theme` → `Vue Dark` or `Vue Dark Snappy` from the menu bar.
