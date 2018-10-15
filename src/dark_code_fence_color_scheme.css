@@ -1,0 +1,124 @@
+/* code color */
+.cm-s-inner .cm-keyword {
+    color: #bb7fc3
+}
+
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom {
+    color: #9088cc
+}
+
+.cm-s-inner .cm-number {
+    color: #88b2a1
+}
+
+.cm-s-inner .cm-def {
+    color: #7f7fff
+}
+
+.cm-s-inner .cm-variable {
+    color: #efefef
+}
+
+.cm-s-inner .cm-variable-2 {
+    color: #7faad4
+}
+
+.cm-s-inner .cm-variable-3 {
+    color: #7fc3aa
+}
+
+.cm-s-inner .cm-string {
+    color: #d48888
+}
+
+.cm-s-inner .cm-property {
+    color: #efefef
+}
+
+.cm-s-inner .cm-operator {
+    color: #cb8c8c
+}
+
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment {
+    color: hsl(0, 0%, 35%)
+}
+
+.cm-s-inner .cm-string-2 {
+    color: #ffaa7f
+}
+
+.cm-s-inner .cm-meta {
+    color: hsl(0, 0%, 33%)
+}
+
+.cm-s-inner .cm-qualifier {
+    color: hsl(0, 0%, 33%)
+}
+
+.cm-s-inner .cm-builtin {
+    color: #997fd4
+}
+
+.cm-s-inner .cm-bracket {
+    color: #ccccbb
+}
+
+.cm-s-inner .cm-tag {
+    color: #88bb7f
+}
+
+.cm-s-inner .cm-attribute {
+    color: #7f7fe5
+}
+
+.cm-s-inner .cm-header, .cm-s-inner.cm-header {
+    color: #7f7fff
+}
+
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote {
+    color: #7fcc7f
+}
+
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr {
+    color: hsl(0, 0%, 60%)
+}
+
+.cm-s-inner .cm-link, .cm-s-inner.cm-link {
+    color: #7f7fe5
+}
+
+.cm-negative {
+    color: #eea1a1
+}
+
+.cm-positive {
+    color: #90cc90
+}
+
+.cm-header, .cm-strong {
+    font-weight: 700
+}
+
+.cm-error {
+    color: #ff7f7f
+}
+
+.cm-invalidchar {
+    color: #ff7f7f
+}
+
+.cm-constant {
+    color: #92c4e8
+}
+
+.cm-defined {
+    color: #dac37f
+}
+
+div.CodeMirror span.CodeMirror-matchingbracket {
+    color: #7fff7f
+}
+
+div.CodeMirror span.CodeMirror-nonmatchingbracket {
+    color: #ff9090
+}
