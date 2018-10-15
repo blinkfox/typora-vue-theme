@@ -370,7 +370,7 @@ h3 a {
 
 h3 a:before {
     content: '#';
-    color: #42b983;
+    /* color: #42b983; */
     position: absolute;;
     left: -0.7em;
     margin-top: -0.05em;
@@ -391,7 +391,7 @@ h2 {
     line-height: 1.225;
     margin: 35px 0px 15px 0px;
     padding-bottom: 0.5em;
-    border-bottom: 2px solid hsl(0, 0%, 13%);
+    border-bottom: 2px solid hsl(0, 0%, 20%);
 }
 
 h3 {
@@ -431,7 +431,7 @@ hr {
     height: 2px;
     padding: 0;
     margin: 16px 0;
-    background-color: hsl(0, 0%, 9%);
+    background-color: hsl(0, 0%, 18%);
     border: 0 none;
     overflow: hidden;
     box-sizing: content-box;
@@ -506,6 +506,8 @@ blockquote {
 }
 
 table {
+    font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important;
+    font-size: 0.85rem;
     padding: 0;
     word-break: initial;
 }
@@ -518,12 +520,14 @@ table tr {
 
 table tr:nth-child(2n),
 thead {
-    background-color: hsl(0, 0%, 2%);
+    /* background-color: hsl(0, 0%, 2%); */
+    background-color: hsl(0, 0%, 10%);
 }
 
 table tr th {
     font-weight: bold;
-    border: 1px solid hsl(210, 10%, 11%);
+    /* border: 1px solid hsl(210, 10%, 11%); */
+    border: transparent;
     border-bottom: 0;
     text-align: left;
     margin: 0;
@@ -531,7 +535,9 @@ table tr th {
 }
 
 table tr td {
-    border: 1px solid hsl(210, 10%, 11%);
+    /* border: 2px solid hsl(210, 10%, 11%); */
+    /* border: 2px solid hsl(0, 0%, 4%); */
+    border: 2px solid #1d1d1d;
     text-align: left;
     margin: 0;
     padding: 6px 13px;
@@ -556,7 +562,8 @@ table tr td:last-child {
 }
 
 #write table thead th {
-    background-color: hsl(0, 0%, 5%);
+    /* background-color: hsl(0, 0%, 5%); */
+    background-color: hsl(0, 0%, 9%);
 }
 
 #write .CodeMirror-gutters {
