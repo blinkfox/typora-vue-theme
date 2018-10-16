@@ -718,7 +718,7 @@ table tr td:last-child {
     border-radius: 2px;
     font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important;
     font-weight: bold;
-    font-size: 0.92rem;
+    font-size: 0.85rem;
     color: #f3b37f;
     background-color: hsl(0, 0%, 10%);
 }
@@ -977,4 +977,14 @@ html{
 /* windows */
 .modal-dialog {
     color: #000;
+}
+
+/* cursor */
+.CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
+    border-left: 5px solid #42b983;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 5px solid #42b983;
+    z-index: 3;
 }
