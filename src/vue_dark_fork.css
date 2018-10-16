@@ -597,11 +597,11 @@ table tr td:last-child {
     font-weight: bold;
     font-size: 0.85rem;
     color: #f3b37f;
-    background-color: hsl(0, 0%, 10%);
+    background-color: hsla(0, 0%, 0%, 0.4);
 }
 
 #write .md-footnote {
-    background-color: hsl(0, 0%, 10%);
+    background-color: hsla(0, 0%, 0%, 0.4);
     color: #f3b37f;
 }
 
