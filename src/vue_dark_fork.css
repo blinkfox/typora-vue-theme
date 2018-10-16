@@ -3,6 +3,8 @@
     /* --side-bar-bg-color: #fff; */
     --control-text-color: #ffffff;
     /* --control-text-color: #777; */
+    --select-text-bg-color: hsla(153, 47%, 49%, 0.5);
+    --select-text-font-color: #fff;
 }
 
 /* cyrillic-ext */
@@ -597,11 +599,11 @@ table tr td:last-child {
     font-weight: bold;
     font-size: 0.85rem;
     color: #f3b37f;
-    background-color: hsla(0, 0%, 0%, 0.4);
+    background-color: hsla(0, 0%, 0%, 0.2);
 }
 
 #write .md-footnote {
-    background-color: hsla(0, 0%, 0%, 0.4);
+    background-color: hsla(0, 0%, 0%, 0.2);
     color: #f3b37f;
 }
 
@@ -750,7 +752,7 @@ footer {
 }
 
 .md-lang {
-    color: #b4654d;
+    color: #42b983;
 }
 
 .html-for-mac .context-menu {
@@ -864,4 +866,10 @@ html{
 .CodeMirror div.CodeMirror-cursor {
     border-left: 5px solid #42b983;
     z-index: 3;
+}
+
+/* selected text */
+.CodeMirror-selecte {
+    background-color: hsla(153, 47%, 49%, 0.5) !important;
+    color: #fff !important;
 }
