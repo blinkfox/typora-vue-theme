@@ -3,7 +3,8 @@
     /* --side-bar-bg-color: #fff; */
     --control-text-color: #ffffff;
     /* --control-text-color: #777; */
-    --select-text-bg-color: hsla(153, 47%, 49%, 0.5);
+    /* --select-text-bg-color: hsla(153, 47%, 49%, 0.5); */
+    --select-text-bg-color: hsl(153, 47%, 40%);
     --select-text-font-color: #fff;
 }
 
@@ -870,6 +871,6 @@ html{
 
 /* selected text */
 .CodeMirror-selecte {
-    background-color: hsla(153, 47%, 49%, 0.5) !important;
-    color: #fff !important;
+    /* background-color: hsla(153, 47%, 49%, 0.5) !important; */
+    /* color: #fff !important; */
 }
