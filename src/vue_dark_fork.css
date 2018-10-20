@@ -877,6 +877,10 @@ html{
     color: #000;
 }
 
+.typora-sourceview-on #toggle-sourceview-btn{
+    background-color: #42b983
+}
+
 /* cursor */
 .CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
     border-left: 5px solid #42b983;
