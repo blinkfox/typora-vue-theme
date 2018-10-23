@@ -984,10 +984,10 @@ html{
     box-shadow: 0 0 1rem hsla(153, 47%, 49%, 0.3);
 }
 
-.auto-suggest-container li {
+/* .auto-suggest-container li { */
     /* transition: all 150ms; */
     /* text-align: center !important; */
-}
+/* } */
 
 .auto-suggest-container li:hover {
     color: #fff !important;
@@ -996,9 +996,9 @@ html{
 }
 
 /* windows */
-.modal-dialog {
-    color: #000;
-}
+/* .modal-dialog { */
+    /* color: #000; */
+/* } */
 
 .typora-sourceview-on #toggle-sourceview-btn{
     background-color: #42b983
