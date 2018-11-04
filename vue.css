@@ -332,32 +332,32 @@ h6:hover a.anchor {
 
 h1 tt,
 h1 code {
-    font-size: inherit;
+    font-size: inherit !important;
 }
 
 h2 tt,
 h2 code {
-    font-size: inherit;
+    font-size: inherit !important;
 }
 
 h3 tt,
 h3 code {
-    font-size: inherit;
+    font-size: inherit !important;
 }
 
 h4 tt,
 h4 code {
-    font-size: inherit;
+    font-size: inherit !important;
 }
 
 h5 tt,
 h5 code {
-    font-size: inherit;
+    font-size: inherit !important;
 }
 
 h6 tt,
 h6 code {
-    font-size: inherit;
+    font-size: inherit !important;
 }
 
 h2 a,
