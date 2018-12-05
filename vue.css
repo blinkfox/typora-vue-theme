@@ -582,7 +582,7 @@ table tr td:last-child {
     margin: 0 2px;
     padding: 2px 4px;
     border-radius: 2px;
-    font-family: Source Sans Pro, Roboto Mono, Monaco, courier, monospace !important;
+    font-family: Roboto Mono, Source Sans Pro, Monaco, courier, monospace !important;
     font-size: 0.92rem;
     color: #e96900;
     background-color: #f8f8f8;
