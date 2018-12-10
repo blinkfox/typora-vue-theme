@@ -272,19 +272,15 @@ body {
 #write {
     max-width: 860px;
     margin: 0 auto;
-    padding: 20px 30px 40px 30px;
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding: 20px 30px 100px;
 }
 
 #write p {
-    /* text-indent: 2rem; */
     line-height: 1.6rem;
     word-spacing: .05rem;
 }
 
 #write ol li {
-    /*padding-left: 0.5rem;*/
     text-indent: 0.5rem;
 }
 
@@ -304,7 +300,7 @@ body > *:last-child {
 a {
     color: #42b983;
     font-weight: 600;
-    padding: 0px 2px;
+    padding: 0 2px;
     text-decoration: none;
 }
 
@@ -387,7 +383,7 @@ h1 {
 h2 {
     font-size: 1.75rem;
     line-height: 1.225;
-    margin: 35px 0px 15px 0px;
+    margin: 35px 0 15px;
     padding-bottom: 0.5em;
     border-bottom: 1px solid #ddd;
 }
@@ -395,7 +391,7 @@ h2 {
 h3 {
     font-size: 1.4rem;
     line-height: 1.43;
-    margin: 20px 0px 7px 0px;
+    margin: 20px 0 7px;
 }
 
 h4 {
@@ -498,7 +494,7 @@ ol:last-child {
 
 blockquote {
     border-left: 4px solid #42b983;
-    padding: 10px 0px 10px 15px;
+    padding: 10px 0 10px 15px;
     color: #777;
     background-color: rgba(66, 185, 131, .1);
 }
@@ -546,11 +542,11 @@ table tr td:last-child {
 }
 
 #write strong {
-    padding: 0px 1px 0 1px;
+    padding: 0 1px;
 }
 
 #write em {
-    padding: 0px 5px 0 2px;
+    padding: 0 5px 0 2px;
 }
 
 #write table thead th {
@@ -565,7 +561,7 @@ table tr td:last-child {
     border: 1px solid #F4F4F4;
     -webkit-font-smoothing: initial;
     margin: 0.8rem 0 !important;
-    padding: 0.3rem 0rem !important;
+    padding: 0.3rem 0 !important;
     line-height: 1.43rem;
     background-color: #F8F8F8 !important;
     border-radius: 2px;
@@ -618,13 +614,6 @@ table tr td:last-child {
 
 .md-task-list-item > input {
     margin-left: -1.3em;
-}
-
-@media screen and (min-width: 914px) {
-    /*body {
-        width: 854px;
-        margin: 0 auto;
-    }*/
 }
 
 @media print {
@@ -682,10 +671,9 @@ table tr td:last-child {
 }
 
 .md-image > .md-meta {
-    /*border: 1px solid #ddd;*/
     border-radius: 3px;
     font-family: Consolas, "Liberation Mono", Courier, monospace;
-    padding: 2px 0px 0px 4px;
+    padding: 2px 0 0 4px;
     font-size: 0.9em;
     color: inherit;
 }
@@ -738,7 +726,6 @@ footer {
 }
 
 .mac-seamless-mode #typora-sidebar {
-    background-color: #fafafa;
     background-color: var(--side-bar-bg-color);
 }
 
