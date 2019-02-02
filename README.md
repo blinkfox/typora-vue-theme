@@ -12,10 +12,10 @@
 
 ## Install
 
-1. [Download](https://codeload.github.com/blinkfox/typora-vue-theme/zip/master) this theme from Github, then you can get the `vue.css` file and the `vue` folder.
+1. [Download](https://codeload.github.com/blinkfox/typora-vue-theme/zip/master) this theme from Github, then you can get the `vue.css`, `vue-dark.css` files and the `vue` folder.
 2. Open typora. Click "**Open Theme Folder**" button from `Preference Panel` → `Apperance` section.
-3. Put `vue.css` and `vue` folder into the opened folder, make sure your css files are directly under that directory.
-4. Close and reopen Typora and select `Theme` → `Vue` from the menu bar.
+3. Put `vue.css`, `vue-dark.css` and `vue` folder into the opened folder, make sure your css files are directly under that directory.
+4. Close and reopen Typora and select `Theme` → `Vue` or `Vue Dark` from the menu bar.
 
 ## Screenshots
 
@@ -24,3 +24,11 @@
 ![Screenshot 2](http://static.blinkfox.com/typora_vue_theme_screen_02.png)
 
 ![Screenshot 3](http://static.blinkfox.com/typora_vue_theme_screen_03.png)
+
+### Vue Dark
+
+![Screenshot 4](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png)
+
+![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
+
+> **Thanks**: This `vue-dark.css` by [typora-vue-dark-theme](https://github.com/MamoruDS/typora-vue-dark-theme).
