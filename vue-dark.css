@@ -634,6 +634,7 @@ table {
     font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important;
     font-size: 0.85rem;
     padding: 0;
+    overflow: hidden;
     word-break: initial;
 }
 
