@@ -281,7 +281,7 @@ body {
 }
 
 #write ol li {
-    text-indent: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 #write > ul:first-child,
