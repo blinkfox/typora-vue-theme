@@ -162,6 +162,11 @@ input {
     color: #42b983;
 }
 
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background: var(--select-text-bg-color);
+    color: #fff;
+}
+
 /* cyrillic-ext */
 @font-face {
     font-family: 'Roboto Mono';
