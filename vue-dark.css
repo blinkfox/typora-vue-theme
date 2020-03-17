@@ -142,9 +142,12 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     /* --control-text-color: #777; */
     /* --select-text-bg-color: hsla(153, 47%, 49%, 0.5); */
     --select-text-bg-color: hsl(153, 47%, 40%);
+    --active-file-bg-color:  hsl(153, 47%, 40%);
     --select-text-font-color: #aaaaaa;
+    --active-file-text-color: #eeeeee;
     --bg-color: #1d1d1d;
     --item-hover-bg-color: #eeeeee;
+    --text-color: #aaaaaa;
 }
 
 .info-panel-tab:hover {
@@ -1029,3 +1032,17 @@ html{
     /* background-color: hsla(153, 47%, 49%, 0.5) !important; */
     /* color: #eeeeee !important; */
 /* } */
+
+.ty-preferences {
+    color: #aaaaaa;
+}
+
+.ty-preferences .btn-default:not([disabled]):hover {
+    background-color: var(--active-file-bg-color);
+    background-image: none;
+    color: #fff;
+}
+
+.ty-preferences .search-hit {
+    background: var(--select-text-bg-color)
+}
