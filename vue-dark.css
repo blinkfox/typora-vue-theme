@@ -147,6 +147,18 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     --item-hover-bg-color: #eeeeee;
 }
 
+.info-panel-tab:hover {
+    color:  #42b983;
+}
+
+.outline-label:hover {
+    text-decoration: none;
+}
+
+input {
+    color: #42b983;
+}
+
 /* cyrillic-ext */
 @font-face {
     font-family: 'Roboto Mono';
