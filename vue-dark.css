@@ -2,12 +2,12 @@
 
 .md-rawblock-control:not(.md-rawblock-tooltip) {
     background: #555;
-    color: #fff;
+    color: #eeeeee;
 }
 
 .md-rawblock-on-edit>.md-rawblock-tooltip, .md-rawblock:hover>.md-rawblock-container, .md-rawblock:hover>.md-rawblock-tooltip {
     background: #555;
-    color: #fff;
+    color: #eeeeee;
 }
 
 /* code color */
@@ -133,14 +133,16 @@ div.CodeMirror span.CodeMirror-matchingbracket {
 
 div.CodeMirror span.CodeMirror-nonmatchingbracket {
     color: #ff9090
-}:root {
-    --side-bar-bg-color: #343333;
-    /* --side-bar-bg-color: #fff; */
-    --control-text-color: #ffffff;
+}
+
+:root {
+    --side-bar-bg-color: #1d1d1d;
+    /* --side-bar-bg-color: #eeeeee; */
+    --control-text-color: #aaaaaa;
     /* --control-text-color: #777; */
     /* --select-text-bg-color: hsla(153, 47%, 49%, 0.5); */
     --select-text-bg-color: hsl(153, 47%, 40%);
-    --select-text-font-color: #fff;
+    --select-text-font-color: #aaaaaa;
     --bg-color: #1d1d1d;
     --item-hover-bg-color: var(--select-text-bg-color);
 }
@@ -415,7 +417,7 @@ html {
 
 body {
     font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif !important;
-    color: #ffffff;
+    color: #eeeeee;
     background-color: #1f1f1f;
     -webkit-font-smoothing: antialiased;
     line-height: 1.6rem;
@@ -636,7 +638,7 @@ ol:last-child {
 blockquote {
     border-left: 4px solid #42b983;
     padding: 10px 0px 10px 15px;
-    color: #fff;
+    color: #eeeeee;
     background-color: rgba(66, 185, 131, .1);
 }
 
@@ -644,6 +646,7 @@ table {
     font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important;
     font-size: 0.85rem;
     padding: 0;
+    overflow: hidden;
     word-break: initial;
 }
 
@@ -953,7 +956,7 @@ footer {
 }
 
 .file-node-content:hover {
-    color: #fff;
+    color: #eeeeee;
 }
 
 html{
@@ -971,7 +974,7 @@ html{
 }
 
 .dropdown-menu>li>a {
-    color: #fff;
+    color: #eeeeee;
 }
 
 .autoComplt-hint {
@@ -997,7 +1000,7 @@ html{
 /* } */
 
 .auto-suggest-container li:hover {
-    color: #fff !important;
+    color: #eeeeee !important;
     background-color: #42b983 !important;
     /* text-align: right !important; */
 }
@@ -1024,5 +1027,5 @@ html{
 /* selected text */
 /* .CodeMirror-selecte { */
     /* background-color: hsla(153, 47%, 49%, 0.5) !important; */
-    /* color: #fff !important; */
+    /* color: #eeeeee !important; */
 /* } */
