@@ -446,14 +446,6 @@ table tr td:last-child {
     margin-bottom: 0;
 }
 
-#write strong {
-    padding: 0px 1px 0 1px;
-}
-
-#write em {
-    padding: 0px 5px 0 2px;
-}
-
 #write table thead th {
     /* background-color: hsl(0, 0%, 5%); */
     background-color: hsl(0, 0%, 9%);
