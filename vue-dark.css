@@ -146,7 +146,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     --select-text-font-color: #aaaaaa;
     --active-file-text-color: #eeeeee;
     --bg-color: #1d1d1d;
-    --item-hover-bg-color: #eeeeee;
+    --item-hover-bg-color: var(--select-text-bg-color);
     --text-color: #aaaaaa;
 }
 
