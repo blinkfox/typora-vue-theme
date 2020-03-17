@@ -142,7 +142,19 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     --select-text-bg-color: hsl(153, 47%, 40%);
     --select-text-font-color: #fff;
     --bg-color: #1d1d1d;
-    --item-hover-bg-color: #fff;
+    --item-hover-bg-color: var(--select-text-bg-color);
+}
+
+.info-panel-tab:hover {
+    color:  #42b983;
+}
+
+.outline-label:hover {
+    text-decoration: none;
+}
+
+input {
+    color: #42b983;
 }
 
 /* cyrillic-ext */
