@@ -3,8 +3,8 @@
 :root {
     --side-bar-bg-color: #fff;
     --control-text-color: #777;
-    --font-sans-serif: 'Source Sans Pro', sans-serif !important;
-    --font-monospace: 'Roboto Mono', monospace !important;
+    --font-sans-serif: 'Ubuntu', 'Source Sans Pro', sans-serif !important;
+    --font-monospace: 'Fira Code', 'Roboto Mono', monospace !important;
 }
 
 html {
@@ -315,13 +315,16 @@ table tr td:last-child {
 }
 
 #write code, tt {
-    margin: 0 2px;
     padding: 2px 4px;
     border-radius: 2px;
     font-family: var(--font-monospace);
     font-size: 0.92rem;
     color: #e96900;
     background-color: #f8f8f8;
+}
+
+tt {
+    margin: 0 2px;
 }
 
 #write .md-footnote {

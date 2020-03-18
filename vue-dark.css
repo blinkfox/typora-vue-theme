@@ -11,7 +11,7 @@
     --item-hover-bg-color: var(--select-text-bg-color);
     --text-color: #aaaaaa;
     --font-sans-serif: 'Source Sans Pro', sans-serif !important;
-    --font-monospace: 'Roboto Mono', monospace !important;
+    --font-monospace: 'Fira Code', 'Roboto Mono', monospace !important;
 }
 
 .md-rawblock-control:not(.md-rawblock-tooltip) {
@@ -475,7 +475,6 @@ table tr td:last-child {
 }
 
 #write code, tt {
-    margin: 0 2px;
     padding: 2px 4px;
     border-radius: 2px;
     font-family: var(--font-monospace);
@@ -483,6 +482,10 @@ table tr td:last-child {
     font-size: 0.85rem;
     color: #f3b37f;
     background-color: hsla(0, 0%, 0%, 0.2);
+}
+
+tt {
+    margin: 0 2px;
 }
 
 #write .md-footnote {
