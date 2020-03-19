@@ -161,6 +161,18 @@ input {
     color: #42b983;
 }
 
+.info-panel-tab:hover {
+    color:  #42b983;
+}
+
+.outline-label:hover {
+    text-decoration: none;
+}
+
+input {
+    color: #42b983;
+}
+
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
     background: var(--select-text-bg-color);
     color: #fff;
