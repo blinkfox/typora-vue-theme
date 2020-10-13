@@ -378,6 +378,10 @@ tt {
     background-color: #f8f8f8;
 }
 
+.md-diagram-panel {
+    position: static !important;
+}
+
 #write pre.md-meta-block {
     padding: 1rem;
     font-size: 85%;
