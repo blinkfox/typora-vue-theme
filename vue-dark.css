@@ -606,6 +606,10 @@ tt {
     padding-bottom: 20px;
 }
 
+.md-diagram-panel {
+    position: static !important;
+}
+
 .sidebar-tabs {
     border-bottom: none;
 }
