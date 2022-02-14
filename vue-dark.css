@@ -807,3 +807,11 @@ html{
 .ty-preferences .search-hit {
     background: var(--select-text-bg-color)
 }
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff5e;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #ffffff9c;
+}
