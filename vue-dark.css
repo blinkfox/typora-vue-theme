@@ -7,6 +7,8 @@
     --active-file-bg-color:  hsl(153, 47%, 40%);
     --select-text-font-color: #aaaaaa;
     --active-file-text-color: #eeeeee;
+    --search-select-bg-color: #13c172;
+    --search-select-text-color: #000;
     --bg-color: #1d1d1d;
     --item-hover-bg-color: var(--select-text-bg-color);
     --text-color: #aaaaaa;
@@ -809,9 +811,9 @@ html{
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ffffff5e;
+    background: #ffffff35;
 }
 
 ::-webkit-scrollbar-thumb:active {
-    background: #ffffff9c;
+    background: #ffffff65;
 }
